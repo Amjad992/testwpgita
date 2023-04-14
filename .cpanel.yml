@@ -1,0 +1,5 @@
+---
+deployment:
+      tasks:
+        - export DEPOLYPATH=/home/amjalbwd/public_html/testwpgita
+        - /bin/cp -r * $DEPLOYPATH
